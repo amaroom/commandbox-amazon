@@ -7,8 +7,8 @@ Find out more about CommandBox, visit [the CommandBox website](https://commandbo
 Tags
 ----
 
-* `lucee`, `latest` [(path/to/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/master/Dockerfile)
-* `railo` [(path/to/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/railo/Dockerfile)
+* `lucee`, `latest` [(commandbox-amazon/blob/master/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/master/Dockerfile)
+* `railo` [(commandbox-amazon/blob/railo/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/railo/Dockerfile)
 
 How to use this image
 ---------------------
