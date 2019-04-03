@@ -45,7 +45,7 @@ Additional Library Files
 ------------------------
 
 Any files place in the `lib/` folder of the project before a build, or bound to 
-the container path `/web/lib/` are available to the Java framework to scan for 
+the container path `/web/lib/`, are available to the Java framework to scan for 
 classes. This is a good place to place any of your Java JAR dependencies.
 
 Modify Server Settings
@@ -67,7 +67,7 @@ are located in the container path `/web/servlet-home/WEB-INF`.
 
 Configuration settings for _Web_ and _Server_ contexts, such as the 
 file `railo-web.xml.cfm` for _Web_ contexts and `railo-server.xml` for the _Server_
-context are in their respective folders and can be replace or overridden bith binding.
+context, are in their respective folders and can be replace or overridden with binding.
 
 #### Example context paths
 
