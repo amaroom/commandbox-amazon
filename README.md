@@ -45,7 +45,7 @@ Additional Library Files
 ------------------------
 
 Any files place in the `lib/` folder of the project before a build, or bound to 
-the container path `/web/lib/` are available to the Java framework to scan for 
+the container path `/web/lib/`, are available to the Java framework to scan for 
 classes. This is a good place to place any of your Java JAR dependencies.
 
 Modify Server Settings
@@ -66,14 +66,14 @@ a single global _Server_ context. The _Server_ context and any _Web_ contexts
 are located in the container path `/web/servlet-home/WEB-INF`.
 
 Configuration settings for _Web_ and _Server_ contexts, such as the 
-file `railo-web.xml.cfm` for _Web_ contexts and `railo-server.xml` for the _Server_
-context are in their respective folders and can be replace or overridden bith binding.
+file `lucee-web.xml.cfm` for _Web_ contexts and `lucee-server.xml` for the _Server_
+context, are in their respective folders and can be replace or overridden bith binding.
 
 #### Example context paths
 
 * Server context
-    * `/web/servlet-home/WEB-INF/railo-server/context`
-        * Contains configuration file `railo-server.xml`
+    * `/web/servlet-home/WEB-INF/lucee-server/context`
+        * Contains configuration file `lucee-server.xml`
 * Web context
-    * `/web/servlet-home/WEB-INF/railo-web`
-        * Contains configuration file `railo-web.xml.cfm`
+    * `/web/servlet-home/WEB-INF/lucee-web`
+        * Contains configuration file `lucee-web.xml.cfm`
