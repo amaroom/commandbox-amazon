@@ -7,8 +7,8 @@ Find out more about CommandBox, visit [the CommandBox website](https://commandbo
 Tags
 ----
 
-* `lucee`, `latest` [(path/to/Dockerfile)](https://github.com/amaroom)
-* `railo` [(path/to/Dockerfile)](https://github.com/amaroom)
+* `lucee`, `latest` [(path/to/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/master/Dockerfile)
+* `railo` [(path/to/Dockerfile)](https://github.com/amaroom/commandbox-amazon/blob/railo/Dockerfile)
 
 How to use this image
 ---------------------
@@ -35,6 +35,11 @@ You can then build and run the Docker image:
 
     $ docker build -t my-cfapp .
     $ docker run -p 8080:8080 -d my-cfapp
+
+You can also use the Docker image directly from Docker Hub
+
+    docker pull amaroom/commandbox-amazon
+
 
 Additional Library Files
 ------------------------
