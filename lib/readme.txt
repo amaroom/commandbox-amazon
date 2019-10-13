@@ -1,1 +1,1 @@
-Place libraries for you app here and they will be added to the build.
+Place libraries for your app here and they will be added to the build.
