@@ -17,9 +17,9 @@ The container folder `/web/ROOT` is the application root for the server.
 
 The container service port is `8080`.
 
-### Bind your work folder to a running container
+### Bind your local work folder to a running container
 
-    $ docker run \
+    docker run \
         -v my/work/code/:/web/ROOT/ \
         -p 8080:8080 \
         -d amaroom/commandbox-amazon
@@ -67,7 +67,7 @@ are located in the container path `/web/servlet-home/WEB-INF`.
 
 Configuration settings for _Web_ and _Server_ contexts, such as the 
 file `lucee-web.xml.cfm` for _Web_ contexts and `lucee-server.xml` for the _Server_
-context, are in their respective folders and can be replace or overridden bith binding.
+context, are in their respective folders and can be replaced, or overridden with binding.
 
 #### Example context paths
 
