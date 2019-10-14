@@ -1,12 +1,13 @@
-FROM amazonlinux:1
+FROM amazonlinux
 
 # We add the commandbox repo definition so we can install our software.
 COPY commandbox.repo /etc/yum.repos.d/commandbox.repo
 
 RUN yum update -y && \
-    yum install -y java-1.8.0 commandbox which && \
+    yum install -y commandbox which && \
     rm -rf /var/cache/yum /var/lib/yum && \
-    yum clean all
+    yum clean all && \
+    mkdir -p /web
 
 WORKDIR /web
 
